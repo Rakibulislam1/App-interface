@@ -43,10 +43,18 @@
          background: var(--bg);
      }
      
-     /* .btn{
-         margin-top: 1rem;
+     section.withdraw_sec{
+        padding-top: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+     .btn{
          display: inline-block;
-         padding: .9rem 3rem;
+         margin-top: 1rem;
+         padding: 1rem 3rem;
          font-size: 1.7rem;
          color: #fff;
          background: var(--main-color);
@@ -54,8 +62,10 @@
      }
      
      .btn:hover{
-         letter-spacing: .1rem;
-     } */
+         background-color: #c39c6c;
+     }
+
+     
      
      header{
          background: var(--bg);
@@ -171,6 +181,10 @@
     .header{
         padding: 1.5rem 2rem;
     }
+
+    section.withdraw_sec{
+        padding-top: 40rem;
+    }
 }
 @media (max-width: 768px){
     #menu_btn{
@@ -216,6 +230,10 @@
 @media (max-width: 450px){
     html{
         font-size: 50%;
+    }
+
+    section.withdraw_sec{
+        padding-top: 45rem;
     }
 }
 /* media queries */
